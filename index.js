@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const studentModel = require("./models/student.model1")
 
-mongoose.connect("mongodb+srv://root:testtest@cluster0.p8trw.mongodb.net/newDB")
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.p8trw.mongodb.net/new____B")
 
 const db = mongoose.connection
 
